@@ -19,4 +19,14 @@ Large Loading Box (index-Large.html)
 <br>
 <a href="https://imgur.com/QUp1cAN"><img src="https://i.imgur.com/QUp1cAN.jpg" title="source: imgur.com" /></a>
 
+Instalation.
+<br>
+By default the small loading box is the one that is used.
+<br>
+If you wish to use the large box, simply rename index-Large.html to index.html
+<br>
+Add the MattomcLoad to your resource folder.
+<br>
+`Add start MattomcLoad to your server.cfg
+
 
