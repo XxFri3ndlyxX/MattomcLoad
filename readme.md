@@ -13,10 +13,10 @@ Complete theme Redesign by XxFri3ndlyxX
 <br>
 Small Loading Box (index.html)
 <br>
-<a href="https://imgur.com/Sop7Wti"><img src="https://imgur.com/Sop7Wti" title="source: imgur.com" /></a>
+<a href="https://imgur.com/Sop7Wti"><img src="https://i.imgur.com/Sop7Wti.jpg" title="source: imgur.com" /></a>
 <br>
 Large Loading Box (index-Large.html)
 <br>
-<a href="https://imgur.com/QUp1cAN"><img src="https://imgur.com/QUp1cAN" title="source: imgur.com" /></a>
+<a href="https://imgur.com/QUp1cAN"><img src="https://i.imgur.com/QUp1cAN.jpg" title="source: imgur.com" /></a>
 
 
