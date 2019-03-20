@@ -1,4 +1,5 @@
 <!--Made with HTML by Matthew Mc -->
+<!--Complete Redesign By XxFri3ndlyxX -->
 <!doctype HTML>
 <html>
 <head>
@@ -10,21 +11,11 @@ body, html {
   height: 100%;
     background-color: black;
 }
-#container {
-    position:fixed;
-    top: 30%%;
-    left: 70%
-    align-content: center;
-}
 .w3-animate-fading {
     position:relative;
 }
 .w3-panel {
-    position: relative;
-    bottom: 90%;
-    right: 60%;
-    left: 60%;
-    align-content: center;
+    position: absolute;
 }
     ul {
         font-size: 20px;
@@ -32,16 +23,167 @@ body, html {
     p {
         font-size: 20px;
     }
+<!-- Simple rules section of server -->	
 .rules {
-    bottom: 90%;
-    right: 60%;
-    left: 60%;
-    align-content: center;
-    text-align: left;
-    color: aqua
+    top: 100px;
+	left: 320px;
+    right: 1200px;
+    color: lime;
+	align-content: center;
 }
+<!-- Rules button section of server -->
+.rulesbutton {
+    top: 110px;
+    left: 400px;
+    color: lime;
+	align-content: center;
+}
+<!-- Simple features section of server -->
+.features {
+    top: 100px;
+    right: 768px;
+	left: 770px;
+    color: lime;
+	align-content: center;
+}
+<!-- Features button section of server -->
+.featuresbutton {
+    top: 110px;
+    left: 830px;
+    color: lime;
+	align-content: center;
+}
+<!-- Simple information section of server -->
+.information {
+    top: 100px;
+    left: 1200px;
+	right: 320px;
+    color: lime;
+	align-content: center;
+}
+<!-- Information button section of server -->
+.informationbutton {
+    top: 110px;
+    left: 1260px;
+    color: lime;
+	align-content: center;
+}
+<!-- Welcome button section of server -->
+.welcomebutton {
+    top: 0px;
+    left: 780px;
+    color: lime;
+	align-content: center;
+}
+<!-- Background Transparent box -->
+.box {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    margin: 0px auto 10px auto;
+    padding: 55px;
+    display: inline;
+    align-content: center;
+}
+<!-- Background Transparent Loading box -->
+.loadingbox {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 0px auto 10px auto;
+    padding: 5px;
+    display: inline;
+    align-content: center;
+}
+<!-- Simple loading section of server -->
 .loading {
-    bottom: 20px;
+    top: 0px;
+    left: 0px;
+    color: lime;
+	display: inline;
+}
+
+<!-- Rules/Feature/Information button section of server -->
+.myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:32px;
+	-webkit-border-radius:32px;
+	border-radius:32px;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:4px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+<!-- Welcome button section of server -->
+.welcome {
+	-moz-box-shadow:inset 0px -1px 0px 0px #ff0000;
+	-webkit-box-shadow:inset 0px -1px 0px 0px #ff0000;
+	box-shadow:inset 0px -1px 0px 0px #ff0000;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff0000), color-stop(1, #ff0000));
+	background:-moz-linear-gradient(top, #ff0000 5%, #ff0000 100%);
+	background:-webkit-linear-gradient(top, #ff0000 5%, #ff0000 100%);
+	background:-o-linear-gradient(top, #ff0000 5%, #ff0000 100%);
+	background:-ms-linear-gradient(top, #ff0000 5%, #ff0000 100%);
+	background:linear-gradient(to bottom, #ff0000 5%, #ff0000 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000',GradientType=0);
+	background-color:#ff0000;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:2px solid #ff0000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:8px 39px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ff0000;
+}
+.welcome:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff0000), color-stop(1, #ff0000));
+	background:-moz-linear-gradient(top, #ff0000 5%, #ff0000 100%);
+	background:-webkit-linear-gradient(top, #ff0000 5%, #ff0000 100%);
+	background:-o-linear-gradient(top, #ff0000 5%, #ff0000 100%);
+	background:-ms-linear-gradient(top, #ff0000 5%, #ff0000 100%);
+	background:linear-gradient(to bottom, #ff0000 5%, #ff0000 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff0000',GradientType=0);
+	background-color:#ff0000;
+}
+.welcome:active {
+	position:relative;
+	top:1px;
 }
 </style>
 </head>
@@ -93,27 +235,78 @@ function showSlides() {
   setTimeout(showSlides, 10000); // Change image every 5 with 5 seconds transition seconds
 }
 </script>  
-      <!-- Title or Name Of Server -->
-    <div class="w3-panel w3-transparent w3-card-4">
-        <p style="color: white"><strong>Default Name</strong></p>
-    </div>
+
     
     <!-- Simple rules section of server -->
-
-    <div class="w3-panel w3-transparent w3-card-4 rules">
-        <ul><li>This is the defualt Look of the screen</li><li>To change this add more List in the Index.HTML</li><li>make sure to put Rules in Lists</li><li>Please change the name aswell</li></ul>
-        <p>For more information on this release look on Github <br>and my discord server.<br> https://discord.gg/WP4q95d
-        <br>
-        <br>
-        <br>
-        <br>&copy; 2019 USA in WA Development Team
-        </p>
+    <div class="w3-panel box rules">
+		<br>
+		<li>This is rules number 1</li>
+		<li>This is rules number 2</li>
+		<li>This is rules number 3</li>
+		<li>This is rules number 4</li>
+		<li>This is rules number 5</li>
+		<li>This is rules number 6</li>
+		<li>This is rules number 7</li>
+		<li>This is rules number 8</li>
+		<li>This is rules number 9</li>
+		<li>This is rules number 10</li>
+    </div>
+	
+	<!-- Simple features section of server -->
+	<div class="w3-panel box features">
+		<br>
+		<li>This is features number 1</li>
+		<li>This is features number 2</li>
+		<li>This is features number 3</li>
+		<li>This is features number 4</li>
+		<li>This is features number 5</li>
+		<li>This is features number 6</li>
+		<li>This is features number 7</li>
+		<li>This is features number 8</li>
+		<li>This is features number 9</li>
+		<li>This is features number 10</li>
+    </div>
+	
+	<!-- Simple information section of server -->
+	<div class="w3-panel box information">
+		<br>
+		<li>This is information number 1</li>
+		<li>This is information number 2</li>
+		<li>This is information number 3</li>
+		<li>This is information number 4</li>
+		<li>This is information number 5</li>
+		<li>This is information number 6</li>
+		<li>This is information number 7</li>
+		<li>This is information number 8</li>
+		<li>This is information number 9</li>
+		<li>This is information number 10</li>
+    </div>
+	
+	
+	<!-- Rules button section of server -->
+	<div class="w3-panel rulesbutton">
+  <button class="myButton">Rules</button>
+    </div>
+	
+	<!-- Features button section of server -->
+	<div class="w3-panel featuresbutton">
+  <button class="myButton">Features</button>
+    </div>
+	
+	<!-- Information button section of server -->
+	<div class="w3-panel informationbutton">
+  <button class="myButton">Information</button>
+    </div>
+	
+	<!-- Welcome button section of server -->
+	<div class="w3-panel welcomebutton">
+  <button class="welcome">Enter Your Server Name</button>
     </div>
 
     <!-- Loading server portion of script -->
 
-    <div class="w3-panel w3-black w3-card-4 w3-opacity-min">
-    <p class="loading">Loading Server  <i class="fa fa-spinner w3-spin" style="font-size:24px"></i></p>
+    <div class="w3-panel loadingbox loading">
+    <p class="loading">Please Wait While We Are Loading You On The Server <i class="fa fa-spinner w3-spin" style="font-size:24px"></i></p>
     </div>
     
 </body>
