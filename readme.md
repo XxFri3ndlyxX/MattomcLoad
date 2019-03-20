@@ -10,8 +10,13 @@ https://discord.gg/WP4q95d
 Complete theme Redesign by XxFri3ndlyxX
 <br>
 ## IMAGES
+<br>
 Small Loading Box (index.html)
-![Load One](https://imgur.com/Sop7Wti)
+<br>
+<a href="https://imgur.com/Sop7Wti"><img src="https://imgur.com/Sop7Wti" title="source: imgur.com" /></a>
+<br>
 Large Loading Box (index-Large.html)
-![Load two](https://imgur.com/QUp1cAN)
+<br>
+<a href="https://imgur.com/QUp1cAN"><img src="https://imgur.com/QUp1cAN" title="source: imgur.com" /></a>
+
 
