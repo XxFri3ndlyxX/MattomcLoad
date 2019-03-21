@@ -6,6 +6,7 @@
    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="w3.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
 <style>
 body, html {
   height: 100%;
@@ -23,7 +24,15 @@ body, html {
     p {
         font-size: 20px;
     }
-<!-- Simple rules section of server -->	
+<!-- Loading Section-->
+.loading {
+    top: 0px;
+    left: 0px;
+    color: lime;
+	display: inline;
+}	
+	
+<!-- Rules Section-->	
 .rules {
     top: 100px;
 	left: 320px;
@@ -31,14 +40,16 @@ body, html {
     color: lime;
 	align-content: center;
 }
-<!-- Rules button section of server -->
+<!-- Rules Button-->
 .rulesbutton {
     top: 110px;
     left: 400px;
     color: lime;
 	align-content: center;
 }
-<!-- Simple features section of server -->
+
+
+<!-- Features Section-->
 .features {
     top: 100px;
     right: 768px;
@@ -46,14 +57,16 @@ body, html {
     color: lime;
 	align-content: center;
 }
-<!-- Features button section of server -->
+<!-- Features Button-->
 .featuresbutton {
     top: 110px;
     left: 830px;
     color: lime;
 	align-content: center;
 }
-<!-- Simple information section of server -->
+
+
+<!-- Information Section-->
 .information {
     top: 100px;
     left: 1200px;
@@ -61,47 +74,17 @@ body, html {
     color: lime;
 	align-content: center;
 }
-<!-- Information button section of server -->
+<!-- Information Button-->
 .informationbutton {
     top: 110px;
     left: 1260px;
     color: lime;
 	align-content: center;
 }
-<!-- Welcome button section of server -->
-.welcomebutton {
-    top: 0px;
-    left: 780px;
-    color: lime;
-	align-content: center;
-}
-<!-- Background Transparent box -->
-.box {
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 30px;
-    margin: 0px auto 10px auto;
-    padding: 55px;
-    display: inline;
-    align-content: center;
-}
-<!-- Background Transparent Loading box -->
-.loadingbox {
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-    margin: 0px auto 10px auto;
-    padding: 5px;
-    display: inline;
-    align-content: center;
-}
-<!-- Simple loading section of server -->
-.loading {
-    top: 0px;
-    left: 0px;
-    color: lime;
-	display: inline;
-}
 
-<!-- Rules/Feature/Information button section of server -->
+
+
+<!-- Rules/Features/Information Button-->
 .myButton {
 	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
 	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
@@ -143,8 +126,14 @@ body, html {
 }
 
 
-
-<!-- Welcome button section of server -->
+<!-- Welcome Button-->
+.welcomebutton {
+    top: 0px;
+    left: 780px;
+    color: lime;
+	align-content: center;
+}
+<!-- Welcome button-->
 .welcome {
 	-moz-box-shadow:inset 0px -1px 0px 0px #ff0000;
 	-webkit-box-shadow:inset 0px -1px 0px 0px #ff0000;
@@ -184,6 +173,92 @@ body, html {
 .welcome:active {
 	position:relative;
 	top:1px;
+}
+
+
+
+<!-- Background Transparent Box -->
+.box {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    margin: 0px auto 10px auto;
+    padding: 55px;
+    display: inline;
+    align-content: center;
+}
+
+<!-- Background Transparent Loading Box -->
+.loadingbox {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 0px auto 10px auto;
+    padding: 5px;
+    display: inline;
+    align-content: center;
+}
+
+<!-- Hints Section -->
+.hints {
+    top: 450px;
+    left: 780px;
+    color: lime;
+	display: inline;
+	border-color: black;
+	border-radius: 30px;
+}
+
+<!-- Background Transparent Loading box -->
+.hintsbox {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 0px auto 10px auto;
+    padding: 5px;
+    display: inline;
+    align-content: center;
+}
+
+
+
+<!-- Credits Section -->
+.credits {
+    bottom: 0px;
+	right: 0px;
+    color: lime;
+	align-content: center;
+}
+<!-- Credit Font Size -->
+il {
+        font-size: 15px;
+    }
+
+
+	
+<!-- Twitter Section -->
+.twitter {
+    bottom: 0px;
+	left: 0px;
+    color: lime;
+	align-content: center;
+}
+
+
+
+<!-- Discord Section -->
+.discord {
+    bottom: 0px;
+	left: 200px;
+    color: lime;
+	align-content: center;
+}
+
+
+
+<!-- Youtube Section -->
+.youtube {
+    bottom: 0px;
+	left: 400px;
+    color: lime;
+	align-content: center;
 }
 </style>
 </head>
@@ -237,7 +312,7 @@ function showSlides() {
 </script>  
 
     
-    <!-- Simple rules section of server -->
+    <!-- Rules Section -->
     <div class="w3-panel box rules">
 		<br>
 		<li>This is rules number 1</li>
@@ -252,7 +327,7 @@ function showSlides() {
 		<li>This is rules number 10</li>
     </div>
 	
-	<!-- Simple features section of server -->
+	<!-- Features Section -->
 	<div class="w3-panel box features">
 		<br>
 		<li>This is features number 1</li>
@@ -267,7 +342,7 @@ function showSlides() {
 		<li>This is features number 10</li>
     </div>
 	
-	<!-- Simple information section of server -->
+	<!-- Information Section -->
 	<div class="w3-panel box information">
 		<br>
 		<li>This is information number 1</li>
@@ -283,31 +358,65 @@ function showSlides() {
     </div>
 	
 	
-	<!-- Rules button section of server -->
+	<!-- Rules Button -->
 	<div class="w3-panel rulesbutton">
   <button class="myButton">Rules</button>
     </div>
 	
-	<!-- Features button section of server -->
+	<!-- Features Button -->
 	<div class="w3-panel featuresbutton">
   <button class="myButton">Features</button>
     </div>
 	
-	<!-- Information button section of server -->
+	<!-- Information Button -->
 	<div class="w3-panel informationbutton">
   <button class="myButton">Information</button>
     </div>
 	
-	<!-- Welcome button section of server -->
+	<!-- Welcome Button -->
 	<div class="w3-panel welcomebutton">
   <button class="welcome">Enter Your Server Name</button>
     </div>
 
-    <!-- Loading server portion of script -->
-
+    <!-- Loading Bar With Text -->
     <div class="w3-panel loadingbox loading">
     <p class="loading">Please Wait While We Are Loading You On The Server <i class="fa fa-spinner w3-spin" style="font-size:24px"></i></p>
     </div>
     
+	
+	
+	
+	<!-- This Will always be the first hint to display. -->
+	<div class="w3-panel hintsbox hints">
+    <div id="name">This will display the first hint</div>
+    </div>
+	
+	<!-- Hints are random and you can add as much as you want. To change how fast it goes change 5000 to your desired speed. -->
+    <script>
+	    var names = ['hint', 'hint', 'hint', 'hint'];
+        setInterval(function() {
+        var rand = Math.floor(Math.random() * 4);
+        document.getElementById("name").innerHTML = names[rand];
+     }, 5000);
+    </script>
+
+
+
+    <!-- This section is for adding your twitter, discord, youtube and is located at the bottom left corner -->
+    <div class="w3-panel twitter">
+	  <i class="fab fa-twitter" style="font-size:20px;color:#38A1F3;"><p class="loading"> Twitter Username</p></i>
+	</div>  
+	
+	<div class="w3-panel discord">
+	  <i class="fab fa-discord" style="font-size:20px;color:#738ADB;"><p class="loading"> Discord Link</p></i>
+	</div>
+	
+	<div class="w3-panel youtube">
+	  <i class="fab fab fa-youtube" style="font-size:20px;color:#ED3833;"><p class="loading"> Youtube Username</p></i>
+	</div>
+	<!-- This section is for adding your name such as who is developping the server or anything really -->
+	<div class = "w3-panel credits">
+		<il>Head Developer: Your Name</il>
+	</div>
 </body>
 </html>
