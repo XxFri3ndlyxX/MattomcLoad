@@ -18,8 +18,17 @@ Small Loading Box (index.html)
 Large Loading Box (index-Large.html)
 <br>
 <a href="https://imgur.com/QUp1cAN"><img src="https://i.imgur.com/QUp1cAN.jpg" title="source: imgur.com" /></a>
-
-##INSTALATION
+## Update
+<br>
+Added Hint to be displayed on screen.
+<br>
+You can add as many as you want and can change how fast they are displayed.
+<br>
+Added Social such Discord, Twitter and Youtube. Located at the bottom left corner.
+<br>
+Added Credit section Can be use to add like Head Developper: Your Name located at the bottom right corner.
+<br>
+## INSTALATION
 <br>
 By default the small loading box is the one that is used.
 <br>
@@ -29,4 +38,8 @@ Add the MattomcLoad to your resource folder.
 <br>
 Add start MattomcLoad to your server.cfg
 
-
+## Future Feature
+<br>
+Those listed here does not mean i will do it but it is soething i consider.
+<br>
+Adding player controls such as volume, play, pause, next.
