@@ -43,3 +43,5 @@ Add start MattomcLoad to your server.cfg
 Those listed here does not mean i will do it but it is soething i consider.
 <br>
 Adding player controls such as volume, play, pause, next.
+<br>
+Join my discord channel https://discord.gg/xncafqk
