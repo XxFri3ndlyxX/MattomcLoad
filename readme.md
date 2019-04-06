@@ -18,9 +18,6 @@ Small Loading Box (index.html)
 <br>
 <a href="https://imgur.com/Sop7Wti"><img src="https://i.imgur.com/Sop7Wti.jpg" title="source: imgur.com" /></a>
 <br>
-Large Loading Box (index-Large.html)
-<br>
-<a href="https://imgur.com/QUp1cAN"><img src="https://i.imgur.com/QUp1cAN.jpg" title="source: imgur.com" /></a>
 ## Update
 <br>
 Added Hint to be displayed on screen.
@@ -32,10 +29,6 @@ Added Social such Discord, Twitter and Youtube. Located at the bottom left corne
 Added Credit section Can be use to add like Head Developper: Your Name located at the bottom right corner.
 <br>
 ## INSTALATION
-<br>
-By default the small loading box is the one that is used.
-<br>
-If you wish to use the large box, simply rename index-Large.html to index.html
 <br>
 Add the MattomcLoad to your resource folder.
 <br>
