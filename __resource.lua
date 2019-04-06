@@ -8,7 +8,6 @@ files {
  'images/Load_5.jpg',   
  'images/Load_6.jpg',
  'index.html',
- 'style.css',
  'w3.css',
 }
 
