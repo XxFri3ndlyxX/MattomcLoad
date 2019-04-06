@@ -1,5 +1,4 @@
 <!--Made with HTML by Matthew Mc -->
-<!--Complete Redesign By XxFri3ndlyxX -->
 <!doctype HTML>
 <html>
 <head>
@@ -24,15 +23,7 @@ body, html {
     p {
         font-size: 20px;
     }
-<!-- Loading Section-->
-.loading {
-    top: 0px;
-    left: 0px;
-    color: lime;
-	display: inline;
-}	
 	
-<!-- Rules Section-->	
 .rules {
     top: 100px;
 	left: 320px;
@@ -40,7 +31,7 @@ body, html {
     color: lime;
 	align-content: center;
 }
-<!-- Rules Button-->
+
 .rulesbutton {
     top: 110px;
     left: 400px;
@@ -48,8 +39,6 @@ body, html {
 	align-content: center;
 }
 
-
-<!-- Features Section-->
 .features {
     top: 100px;
     right: 768px;
@@ -57,7 +46,7 @@ body, html {
     color: lime;
 	align-content: center;
 }
-<!-- Features Button-->
+
 .featuresbutton {
     top: 110px;
     left: 830px;
@@ -65,8 +54,6 @@ body, html {
 	align-content: center;
 }
 
-
-<!-- Information Section-->
 .information {
     top: 100px;
     left: 1200px;
@@ -74,7 +61,7 @@ body, html {
     color: lime;
 	align-content: center;
 }
-<!-- Information Button-->
+
 .informationbutton {
     top: 110px;
     left: 1260px;
@@ -82,9 +69,89 @@ body, html {
 	align-content: center;
 }
 
+.welcomebutton {
+    top: 0px;
+    left: 780px;
+    color: lime;
+	align-content: center;
+}
+
+.box {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    margin: 0px auto 10px auto;
+    padding: 55px;
+    display: inline;
+    align-content: center;
+}
+
+.loadingbox {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 0px auto 10px auto;
+    padding: 5px;
+    display: inline;
+    align-content: center;
+}
+
+.loading {
+    top: 0px;
+    left: 0px;
+    color: lime;
+	display: inline;
+}
+
+.hints {
+    top: 450px;
+    left: 780px;
+    color: lime;
+	display: inline;
+	border-color: black;
+	border-radius: 30px;
+}
+
+.hintsbox {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 0px auto 10px auto;
+    padding: 5px;
+    display: inline;
+    align-content: center;
+}
+
+.credits {
+    bottom: 0px;
+	right: 0px;
+    color: lime;
+	align-content: center;
+}
+il {
+        font-size: 15px;
+    }
+
+.twitter {
+    bottom: 0px;
+	left: 0px;
+    color: lime;
+	align-content: center;
+}
+
+.discord {
+    bottom: 0px;
+	left: 200px;
+    color: lime;
+	align-content: center;
+}
+
+.youtube {
+    bottom: 0px;
+	left: 490px;
+    color: lime;
+	align-content: center;
+}
 
 
-<!-- Rules/Features/Information Button-->
+
 .myButton {
 	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
 	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
@@ -126,14 +193,8 @@ body, html {
 }
 
 
-<!-- Welcome Button-->
-.welcomebutton {
-    top: 0px;
-    left: 780px;
-    color: lime;
-	align-content: center;
-}
-<!-- Welcome button-->
+
+
 .welcome {
 	-moz-box-shadow:inset 0px -1px 0px 0px #ff0000;
 	-webkit-box-shadow:inset 0px -1px 0px 0px #ff0000;
@@ -174,92 +235,6 @@ body, html {
 	position:relative;
 	top:1px;
 }
-
-
-
-<!-- Background Transparent Box -->
-.box {
-    background: rgba(0, 0, 0, 0.3);
-    border-radius: 30px;
-    margin: 0px auto 10px auto;
-    padding: 55px;
-    display: inline;
-    align-content: center;
-}
-
-<!-- Background Transparent Loading Box -->
-.loadingbox {
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
-    margin: 0px auto 10px auto;
-    padding: 5px;
-    display: inline;
-    align-content: center;
-}
-
-<!-- Hints Section -->
-.hints {
-    top: 450px;
-    left: 780px;
-    color: lime;
-	display: inline;
-	border-color: black;
-	border-radius: 30px;
-}
-
-<!-- Background Transparent Loading box -->
-.hintsbox {
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    margin: 0px auto 10px auto;
-    padding: 5px;
-    display: inline;
-    align-content: center;
-}
-
-
-
-<!-- Credits Section -->
-.credits {
-    bottom: 0px;
-	right: 0px;
-    color: lime;
-	align-content: center;
-}
-<!-- Credit Font Size -->
-il {
-        font-size: 15px;
-    }
-
-
-	
-<!-- Twitter Section -->
-.twitter {
-    bottom: 0px;
-	left: 0px;
-    color: lime;
-	align-content: center;
-}
-
-
-
-<!-- Discord Section -->
-.discord {
-    bottom: 0px;
-	left: 200px;
-    color: lime;
-	align-content: center;
-}
-
-
-
-<!-- Youtube Section -->
-.youtube {
-    bottom: 0px;
-	left: 400px;
-    color: lime;
-	align-content: center;
-}
 </style>
 </head>
 <body>
@@ -271,7 +246,7 @@ il {
   <!-- Audio Volume -->
 	<script>
      var vid = document.getElementById("Loading");
-     vid.volume = 1.0
+     vid.volume = 0.2
     </script>
 
 <!-- Loading Images from FAXES <3 -->
@@ -355,6 +330,8 @@ function showSlides() {
 		<li>This is information number 8</li>
 		<li>This is information number 9</li>
 		<li>This is information number 10</li>
+		<br>
+
     </div>
 	
 	
@@ -378,31 +355,26 @@ function showSlides() {
   <button class="welcome">Enter Your Server Name</button>
     </div>
 
-    <!-- Loading Bar With Text -->
-    <div class="w3-panel loadingbox loading">
-    <p class="loading">Please Wait While We Are Loading You On The Server <i class="fa fa-spinner w3-spin" style="font-size:24px"></i></p>
-    </div>
-    
-	
-	
+  <!-- Loading Bar With Text -->
+  <div class="w3-panel loadingbox loading">
+  <p class="loading">Please Wait While We Are Loading You On The Server <i class="fa fa-spinner w3-spin" style="font-size:24px"></i></p>
+  </div>
 	
 	<!-- This Will always be the first hint to display. -->
 	<div class="w3-panel hintsbox hints">
-    <div id="name">This will display the first hint</div>
+  <div id="name">This will display the first hint</div>
     </div>
 	
-	<!-- Hints are random and you can add as much as you want. To change how fast it goes change 5000 to your desired speed. -->
-    <script>
-	    var names = ['hint', 'hint', 'hint', 'hint'];
-        setInterval(function() {
-        var rand = Math.floor(Math.random() * 4);
-        document.getElementById("name").innerHTML = names[rand];
-     }, 5000);
-    </script>
 
-
-
-    <!-- This section is for adding your twitter, discord, youtube and is located at the bottom left corner -->
+  <!-- Hints are random and you can add as much as you want. To change how fast it goes change 5000 to your desired speed. -->
+	<script>
+		var names = ['hint', 'hint', 'hint', 'hint'];
+			setInterval(function() {
+			var rand = Math.floor(Math.random() * 4);
+			document.getElementById("name").innerHTML = names[rand];
+	 }, 5000);
+	</script>
+<!-- This section is for adding your twitter, discord, youtube and is located at the bottom left corner -->
     <div class="w3-panel twitter">
 	  <i class="fab fa-twitter" style="font-size:20px;color:#38A1F3;"><p class="loading"> Twitter Username</p></i>
 	</div>  
@@ -414,7 +386,7 @@ function showSlides() {
 	<div class="w3-panel youtube">
 	  <i class="fab fab fa-youtube" style="font-size:20px;color:#ED3833;"><p class="loading"> Youtube Username</p></i>
 	</div>
-	<!-- This section is for adding your name such as who is developping the server or anything really -->
+	
 	<div class = "w3-panel credits">
 		<il>Head Developer: Your Name</il>
 	</div>
